@@ -25,7 +25,7 @@ public class Main {
         System.out.println("Задание 3");
         int year = 16100;
         if (year % 4 == 0 && year % 400 ==0) {
-            System.out.println(year + " - год является високосным");
+            System.out.println(year + " - год является високосным ");
         }else if (year % 100 == 0) {
                 System.out.println(year + " - год неявляется високосным");
             } else {
